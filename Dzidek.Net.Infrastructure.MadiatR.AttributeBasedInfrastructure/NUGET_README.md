@@ -1,5 +1,6 @@
-#Extendable attribute-based MediatR infrastructure framework
-##An easy way to focus on what is most important and critical - business requirements
+# Extendable attribute-based MediatR infrastructure framework
+
+## An easy way to focus on what is most important and critical - business requirements
 
 ### Main concept
 The framework provides an extensible and configurable way to implement infrastructure code such as RetryPolicy, Circuit breaker, Timeout and another infrastructure
