@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <IsPackable>true</IsPackable>
+        <IsTestProject>true</IsTestProject>
+        <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Extendable attribute-based MediatR infrastructure framework</Title>
+        <Authors>Dzidek.Net</Authors>
+        <Description>An easy way to focus on what is most important and critical - business requirements</Description>
+        <Copyright>@Dzidek.Net</Copyright>
+        <PackageProjectUrl>https://github.com/DzidekDotNet/Dzidek.Net.Infrastructure.MadiatR.AttributeBasedInfrastructure</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/DzidekDotNet/Dzidek.Net.Infrastructure.MadiatR.AttributeBasedInfrastructure/blob/main/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/DzidekDotNet/Dzidek.Net.Infrastructure.MadiatR.AttributeBasedInfrastructure</RepositoryUrl>
+        <PackageTags>DotNetCore, Infrastructure, Attribute, MediatR</PackageTags>
+        <Version>1.0.0-rc1</Version>
+        <PackageReadmeFile>NUGET_README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="12.1.1" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="NUGET_README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+</Project>
