@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dzidek.Net.Infrastructure.M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTest_DotNet6", "WebApiTest_DotNet6\WebApiTest_DotNet6.csproj", "{A9DC688E-F609-4DE9-9F3E-D580E026EFC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dzidek.Net.Infrastructure.MadiatR.AttributeBasedInfrastructure.Polly.Net", "Dzidek.Net.Infrastructure.MadiatR.AttributeBasedInfrastructure.Polly.Net\Dzidek.Net.Infrastructure.MadiatR.AttributeBasedInfrastructure.Polly.Net.csproj", "{52CED4F7-2B86-455D-8460-6C4E703B2DE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{A9DC688E-F609-4DE9-9F3E-D580E026EFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9DC688E-F609-4DE9-9F3E-D580E026EFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9DC688E-F609-4DE9-9F3E-D580E026EFC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52CED4F7-2B86-455D-8460-6C4E703B2DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52CED4F7-2B86-455D-8460-6C4E703B2DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52CED4F7-2B86-455D-8460-6C4E703B2DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52CED4F7-2B86-455D-8460-6C4E703B2DE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
